@@ -1,27 +1,11 @@
 import { ReactNode } from 'react';
-import {
-  Box,
-  chakra,
-  Container,
-  Link,
-  SimpleGrid,
-  Stack,
-  Text,
-  VisuallyHidden,
-  Input,
-  IconButton,
-  useColorModeValue,
-} from '@chakra-ui/react';
+import { Box, Container, Link, SimpleGrid, Stack, Text, Input, IconButton, useColorModeValue } from '@chakra-ui/react';
 import { SocialMediaButton } from 'components/elements/SocialMediaButton';
 import { Mail } from '@web3uikit/icons';
-import { MoralisLogo } from 'components/elements';
 import { CBILogo } from 'components/elements/CBILogo';
 
-
 const Logo = () => {
-  return (
-    <CBILogo />
-  );
+  return <CBILogo />;
 };
 
 const ListHeader = ({ children }: { children: ReactNode }) => {
@@ -34,20 +18,14 @@ const ListHeader = ({ children }: { children: ReactNode }) => {
 
 export default function LargeWithNewsletter() {
   return (
-    <Box
-      bg={useColorModeValue('gray.50', 'gray.900')}
-      color={useColorModeValue('gray.700', 'gray.200')}>
+    <Box bg={useColorModeValue('gray.50', 'gray.900')} color={useColorModeValue('gray.700', 'gray.200')}>
       <Container as={Stack} maxW={'6xl'} py={10}>
-        <SimpleGrid
-          templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 2fr' }}
-          spacing={8}>
+        <SimpleGrid templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 2fr' }} spacing={8}>
           <Stack spacing={6}>
             <Box>
               <Logo />
             </Box>
-            <Text fontSize={'sm'}>
-              © 2022 CypherBabel. All rights reserved
-            </Text>
+            <Text fontSize={'sm'}>© 2022 CypherBabel. All rights reserved</Text>
             <Stack direction={'row'} spacing={6}>
               <SocialMediaButton />
             </Stack>
