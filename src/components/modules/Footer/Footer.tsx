@@ -32,8 +32,11 @@ export default function LargeWithNewsletter() {
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
-            <Link href={'#'}>Indices</Link>
-            <Link href={'#'}>CICS</Link>
+            <Link href={'/indices/cic60'}>CBI</Link>
+            <Link href={'/cbradar'}>CR Radar</Link>
+            <Link href={'/cbdao'}>CR DAO</Link>
+            <Link href={'/cics'}>CICS</Link>
+            <Link href={'/roadmap'}>Roadmap</Link>
             <Link href={'#'}>Linktr.ee</Link>
             <Link href={'#'}>Docs</Link>
           </Stack>
