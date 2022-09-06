@@ -1,9 +1,10 @@
+import { LabelHTMLAttributes } from 'react';
 import { ISubNav } from '../SubNav/SubNav';
 
 const NAV_LINKS: ISubNav[] = [
   { label: 'Home', href: '/' },
-  { 
-    label: 'Indices',
+  {
+    label: 'CBI',
     href: '/indices',
     children: [
       {
@@ -20,9 +21,12 @@ const NAV_LINKS: ISubNav[] = [
       },
     ],
   },
+  { label: 'CB Radar', href: '/cbradar' },
+  { label: 'CB DAO', href: '/cbdao' },
   { label: 'CICS', href: '/cics' },
+  { label: 'Roadmap', href: '/roadmap' },
   { label: 'Linktr.ee', href: '/linktree' },
-  { label: 'Docs', href: '/docs' },
+  { label: 'Docs', href: '/Docs' },
 ];
 
 export default NAV_LINKS;

@@ -1,6 +1,5 @@
 import { HStack } from '@chakra-ui/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-/// import { bodyStreamToNodeStream } from 'next/dist/server/body-streams';
 import { faTwitter, faDiscord, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
 
 const SocialMediaButton = () => {

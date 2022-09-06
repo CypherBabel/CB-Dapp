@@ -8,18 +8,25 @@ const Home = () => {
     <VStack w={'full'}>
       <VStack w={'full'}>
         <Heading fontSize={40} textAlign="center" marginBottom={6} style={{ whiteSpace: 'pre-wrap' }} lineHeight={1.5}>
-          CBI is a branch of CypherBabel {'\n'} that focuses on index products in the crypto world.
+          ABOUT CB
         </Heading>
+      </VStack>
+
+      <VStack>
+        <Heading fontSize={30} textAlign="center" marginTop={20}>
+          ABOUT CBI: CBI is a branch of CypherBabel that focuses on index products in the crypto world.
+        </Heading>
+      </VStack>
+      <VStack w={'full'}>
         <a href="https://google.com">
           <Button size="lg" colorScheme="green" marginTop={20}>
             More indices
           </Button>
         </a>
       </VStack>
-
       <VStack>
         <Heading fontSize={30} textAlign="center" marginTop={20}>
-          Something else
+          ABOUT CB DAO:
         </Heading>
       </VStack>
     </VStack>
