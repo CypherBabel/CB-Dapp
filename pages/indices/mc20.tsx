@@ -1,4 +1,5 @@
-import { AdvancedChart } from 'react-tradingview-embed';
+/// import { AdvancedChart } from 'react-tradingview-embed';
+
 import { Default } from 'components/layouts/Default';
 
 /// import { GetServerSideProps, NextPage } from "next";
@@ -13,15 +14,13 @@ import { Text } from '@chakra-ui/react';
 /// If widgets props are missing, use widgetPropsAny, ex:
 /// - <AdvancedChart widgetPropsAny={{"newProp": true}} />
 
-const TradingViewChart = () => <AdvancedChart widgetProps={{ theme: 'dark' }} />;
+/// const TradingViewChart = () => <AdvancedChart widgetProps={{ theme: 'dark' }} />;
 
 const MC20 = () => {
   return (
     <Default pageName="MC20 index">
       <Text>When MC20 is ready, it shows here.</Text>
-      <Text marginTop={20}>
-        <TradingViewChart />
-      </Text>
+      <Text marginTop={20}>radingView goes here</Text>
     </Default>
   );
 };
