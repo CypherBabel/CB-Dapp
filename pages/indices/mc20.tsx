@@ -20,7 +20,7 @@ const MC20 = () => {
   return (
     <Default pageName="MC20 index">
       <Text>When MC20 is ready, it shows here.</Text>
-      <Text marginTop={20}>radingView goes here</Text>
+      <Text marginTop={20}>TradingView goes here</Text>
     </Default>
   );
 };

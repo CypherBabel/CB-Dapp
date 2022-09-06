@@ -11,7 +11,7 @@ const Header = () => {
         <Flex align="center" justify="space-between">
           <CBILogo />
           <NavBar />
-          <HStack gap={'10px'}>
+          <HStack gap={'12px'}>
             <SocialMediaButton />
             <ConnectButton />
             <ColorModeButton />

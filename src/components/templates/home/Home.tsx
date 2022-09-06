@@ -18,7 +18,7 @@ const Home = () => {
         </Heading>
       </VStack>
       <VStack w={'full'}>
-        <a href="https://google.com">
+        <a href="https://www.google.com">
           <Button size="lg" colorScheme="green" marginTop={20}>
             More indices
           </Button>

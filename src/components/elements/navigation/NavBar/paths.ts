@@ -24,8 +24,8 @@ const NAV_LINKS: ISubNav[] = [
   { label: 'CB DAO', href: '/cbdao' },
   { label: 'CICS', href: '/cics' },
   { label: 'Roadmap', href: '/roadmap' },
-  { label: 'Linktr.ee', href: '/linktree' },
-  { label: 'Docs', href: '/Docs' },
+  { label: 'Linktree', href: '/linktree' },
+  { label: 'Docs', href: 'https://gu-rr.gitbook.io/cbi-bian-zhi-fang-fa/' },
 ];
 
 export default NAV_LINKS;

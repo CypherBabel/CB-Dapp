@@ -24,8 +24,11 @@ export default function LargeWithNewsletter() {
           <Stack spacing={6}>
             <Box>
               <Logo />
+              <Text fontSize={'md'} color={'green.300'} marginTop={2}>
+                A PATH TO THE CRYPTO WORLD
+              </Text>
             </Box>
-            <Text fontSize={'sm'}>© 2022 CypherBabel. All rights reserved</Text>
+            <Text fontSize={'sm'}>© 2022 CypherBabel. All rights reserved.</Text>
             <Stack direction={'row'} spacing={6}>
               <SocialMediaButton />
             </Stack>
@@ -37,16 +40,16 @@ export default function LargeWithNewsletter() {
             <Link href={'/cbdao'}>CR DAO</Link>
             <Link href={'/cics'}>CICS</Link>
             <Link href={'/roadmap'}>Roadmap</Link>
-            <Link href={'#'}>Linktr.ee</Link>
-            <Link href={'#'}>Docs</Link>
+            <Link href={'https://linktr.ee/rrgoo'}>Linktree</Link>
+            <Link href={'https://gu-rr.gitbook.io/cbi-bian-zhi-fang-fa/'}>Docs</Link>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Support</ListHeader>
-            <Link href={'#'}>Help Center</Link>
-            <Link href={'#'}>Terms of Service</Link>
-            <Link href={'#'}>Legal</Link>
-            <Link href={'#'}>Privacy Policy</Link>
-            <Link href={'#'}>Contact Us</Link>
+            <Link href={'https://www.google.com'}>Help Center</Link>
+            <Link href={'https://www.google.com'}>Terms of Service</Link>
+            <Link href={'https://www.google.com'}>Legal</Link>
+            <Link href={'https://www.google.com'}>Privacy Policy</Link>
+            <Link href={'https://www.google.com'}>Contact Us</Link>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Stay up to date</ListHeader>

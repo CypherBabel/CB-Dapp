@@ -5,16 +5,16 @@ import { faTwitter, faDiscord, faGithub, faMedium } from '@fortawesome/free-bran
 const SocialMediaButton = () => {
   return (
     <HStack spacing={5}>
-      <a href="https://google.com">
+      <a href="https://twitter.com">
         <FontAwesomeIcon icon={faTwitter} />
       </a>
-      <a href="https://google.com">
+      <a href="https://discord.com">
         <FontAwesomeIcon icon={faDiscord} />
       </a>
-      <a href="https://google.com">
+      <a href="https://medium.com">
         <FontAwesomeIcon icon={faMedium} />
       </a>
-      <a href="https://google.com">
+      <a href="https://github.com">
         <FontAwesomeIcon icon={faGithub} />
       </a>
     </HStack>
