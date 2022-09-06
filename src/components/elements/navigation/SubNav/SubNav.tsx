@@ -3,7 +3,6 @@ import { useColorModeValue, Stack, Flex, Box, Text, Link } from '@chakra-ui/reac
 import { Illustration } from '@web3uikit/core';
 import { Logo } from '@web3uikit/core/dist/lib/Illustrations/types';
 import NextLink from 'next/link';
-import { URL } from 'url';
 
 export interface ISubNav {
   label: string;

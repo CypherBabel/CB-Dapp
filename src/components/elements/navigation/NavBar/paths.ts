@@ -1,4 +1,3 @@
-import { LabelHTMLAttributes } from 'react';
 import { ISubNav } from '../SubNav/SubNav';
 
 const NAV_LINKS: ISubNav[] = [
