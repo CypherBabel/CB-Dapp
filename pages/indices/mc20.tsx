@@ -1,7 +1,6 @@
 /// import { AdvancedChart } from 'react-tradingview-embed';
 
 import { Default } from 'components/layouts/Default';
-
 /// import { GetServerSideProps, NextPage } from "next";
 /// import { getSession } from "next-auth/react";
 

@@ -20,12 +20,12 @@ const NAV_LINKS: ISubNav[] = [
       },
     ],
   },
-  { label: 'CB Radar', href: '/cbradar' },
-  { label: 'CB DAO', href: '/cbdao' },
-  { label: 'CICS', href: '/cics' },
-  { label: 'Roadmap', href: '/roadmap' },
-  { label: 'Linktree', href: '/linktree' },
-  { label: 'Docs', href: 'https://gu-rr.gitbook.io/cbi-bian-zhi-fang-fa/' },
+  /// { label: 'CB Radar', href: '/cbradar' },
+  /// { label: 'CB DAO', href: '/cbdao' },
+  /// { label: 'CICS', href: '/cics' },
+  /// { label: 'Roadmap', href: '/roadmap' },
+  /// { label: 'Linktree', href: '/linktree' },
+  /// { label: 'Docs', href: '/docs' },
 ];
 
 export default NAV_LINKS;
