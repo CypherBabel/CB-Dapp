@@ -2,10 +2,10 @@ import { ReactNode } from 'react';
 import { Box, Container, Link, SimpleGrid, Stack, Text, Input, IconButton, useColorModeValue } from '@chakra-ui/react';
 import { SocialMediaButton } from 'components/elements/SocialMediaButton';
 import { Mail } from '@web3uikit/icons';
-import { CBILogo } from 'components/elements/CBILogo';
+import CBLogo from 'components/elements/CBLogo/CBLogo';
 
 const Logo = () => {
-  return <CBILogo />;
+  return <CBLogo />;
 };
 
 const ListHeader = ({ children }: { children: ReactNode }) => {
