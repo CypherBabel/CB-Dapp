@@ -14,7 +14,7 @@ import { Text } from '@chakra-ui/react';
 /// If widgets props are missing, use widgetPropsAny, ex:
 /// - <AdvancedChart widgetPropsAny={{"newProp": true}} />
 
-/// const TradingViewChart = () => <AdvancedChart widgetProps={{ theme: 'dark' }} />;
+/// const TradingViewChart = () => <AdvancedChart widgetProps={{ theme: 'dark' }} />;dd
 
 const CIC60 = () => {
   return (
