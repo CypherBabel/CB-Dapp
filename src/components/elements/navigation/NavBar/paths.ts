@@ -20,12 +20,12 @@ const NAV_LINKS: ISubNav[] = [
       },
     ],
   },
-  /// { label: 'CB Radar', href: '/cbradar' },
-  /// { label: 'CB DAO', href: '/cbdao' },
-  /// { label: 'CICS', href: '/cics' },
-  /// { label: 'Roadmap', href: '/roadmap' },
-  /// { label: 'Linktree', href: '/linktree' },
-  /// { label: 'Docs', href: '/docs' },
+  { label: 'CB Radar', href: '/cbradar' },
+  { label: 'CB DAO', href: '/cbdao' },
+  { label: 'CICS', href: '/cics' },
+  { label: 'Roadmap', href: '/roadmap' },
+  { label: 'Linktree', href: '/linktree' },
+  { label: 'Docs', href: '/docs' },
 ];
 
 export default NAV_LINKS;
