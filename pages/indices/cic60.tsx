@@ -1,14 +1,11 @@
 /// import { StrictMode } from 'react';
-/// import { TradingViewChart } from 'components/elements/TradingViewChart';
-import { Default } from 'components/layouts/Default';
-
+/// import { defaultHead } from "next/head";
 /// import { GetServerSideProps, NextPage } from "next";
 /// import { getSession } from "next-auth/react";
-
 /// import Moralis from "moralis";
 /// import { render } from "react-dom";
+import { Default } from 'components/layouts/Default';
 import { Text } from '@chakra-ui/react';
-/// import { defaultHead } from "next/head";
 
 const CIC60 = () => {
   return (
